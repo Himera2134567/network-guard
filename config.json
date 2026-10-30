@@ -1,0 +1,25 @@
+{
+  "fast_interval_sec": 5,
+  "protocol_interval_sec": 15,
+  "topology_interval_sec": 60,
+  "wifi_interval_sec": 30,
+  "ping_timeout_ms": 1200,
+  "socket_timeout_sec": 2.0,
+  "public_ping_targets": [
+    "1.1.1.1",
+    "8.8.8.8"
+  ],
+  "dns_test_host": "example.com",
+  "tcp_test_host": "1.1.1.1",
+  "tcp_test_port": 443,
+  "http_test_urls": [
+    "https://www.gstatic.com/generate_204",
+    "https://www.cloudflare.com/cdn-cgi/trace"
+  ],
+  "trigger_after_failures": 2,
+  "high_latency_ms": 150,
+  "loss_window": 20,
+  "degraded_loss_pct": 25,
+  "auto_report_on_recovery": true,
+  "start_monitoring_on_launch": true
+}
